@@ -1,4 +1,4 @@
-Class Node:
+class Node:
     def __init__(self,id):
         self.id = id
         self.neighbors = {}
@@ -15,7 +15,7 @@ Class Node:
     def getweight(self, neighbor):
         return self.neighbors.get(neighbor)
 
-Class Graph:
+class Graph:
     def __init__(self):
         self.numnodes = 0
         self.nodelist = {}
